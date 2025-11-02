@@ -1,31 +1,20 @@
-# Site settings
-title: "Eleanor (Shengfang) Song"
-name: "Eleanor (Shengfang) Song"
-description: "Personal website of Eleanor Song — researcher, engineer, and lifelong learner."
+title: "Shengfang (Eleanor) Song"
+name: "Shengfang (Eleanor) Song"
+description: "Biostatistician | Epidemiologist | Research Scientist"
 url: "https://eleanorsong113.github.io"
-baseurl: ""  # important: root deployment, no subpath
-repository: "eleanorsong113/eleanorsong113.github.io"
+baseurl: ""
 
-# Build settings
+theme: minima
 markdown: kramdown
-theme: minimal-mistakes-jekyll
-remote_theme: mmistakes/minimal-mistakes@4.26.2
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-include-cache
 
-paginate: 5
-paginate_path: "/page:num/"
-
-# Author profile
 author:
-  name: "Eleanor (Shengfang) Song"
-  avatar: "/images/profile.jpg"
-  bio: "I’m an applied scientist passionate about computer vision, generative AI, and multimodal intelligence."
+  name: "Shengfang (Eleanor) Song"
+  email: "eleanorsong113@yahoo.com"
+  phone: "517-348-4109"
   location: "Bay Area, California"
-  email: "your_email@example.com"
   links:
     - label: "GitHub"
       icon: "fab fa-github"
@@ -36,53 +25,21 @@ author:
     - label: "Google Scholar"
       icon: "ai ai-google-scholar"
       url: "https://scholar.google.com/"
-    - label: "CV"
-      icon: "fas fa-file-alt"
-      url: "/files/EleanorSong_CV.pdf"
 
-# Navigation (adjust as needed)
-collections:
-  teaching:
-    output: true
-    permalink: /teaching/:path/
-  publications:
-    output: true
-    permalink: /publications/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
+# Navigation items
+nav:
+  - name: "Education"
+    link: "#education"
+  - name: "Employment"
+    link: "#employment"
+  - name: "Research Experience"
+    link: "#research"
+  - name: "Teaching"
+    link: "#teaching"
+  - name: "Publications"
+    link: "#publications"
+  - name: "Conferences"
+    link: "#conferences"
 
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: single
-      author_profile: true
-
-# Output options
-include:
-  - _pages
-  - _publications
-  - _projects
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-
-# Optional Google Analytics (if needed)
-# google_analytics: UA-XXXXXXXXX-X
-
-# Social sharing image (optional)
-og_image: "/images/profile.jpg"
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXX-X
