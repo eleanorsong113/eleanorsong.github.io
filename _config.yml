@@ -1,259 +1,88 @@
-# =========================================================
-#  Eleanor (Shengfang) Song - Personal Academic Website
-#  For use with the academicpages Jekyll theme
-#  Site URL: https://eleanorsong113.github.io
-# =========================================================
-
-# -------------------------------
-# Basic Site Settings
-# -------------------------------
-locale: "en-US"
-site_theme: "default"   # 可选 "default" 或 "air"
+# Site settings
 title: "Eleanor (Shengfang) Song"
-title_separator: "-"
-name: &name "Eleanor (Shengfang) Song"
-description: &description "Eleanor (Shengfang) Song’s academic homepage"
-url: "https://eleanorsong113.github.io"   # 主站 URL
-baseurl: ""                               # 根目录部署请留空
-repository: "eleanorsong113/eleanorsong.github.io"
+name: "Eleanor (Shengfang) Song"
+description: "Personal website of Eleanor Song — researcher, engineer, and lifelong learner."
+url: "https://eleanorsong113.github.io"
+baseurl: ""  # important: root deployment, no subpath
+repository: "eleanorsong113/eleanorsong113.github.io"
 
-# -------------------------------
-# Author Information (sidebar)
-# -------------------------------
-author:
-  avatar: "profile.png"                   # 请放在 /images 或根目录
-  name: "Eleanor (Shengfang) Song"
-  pronouns: "she/her"
-  bio: "Researcher in [Your field, e.g. Computer Vision and AI]"
-  location: "Bay Area, CA"
-  employer: ""                            # 可留空或填学校/研究所
-  uri: ""
-  email: ""                               # 可留空或公开邮箱
-
-  # Academic Profiles
-  googlescholar: ""                       # e.g. https://scholar.google.com/citations?user=XXXX
-  orcid: ""                               # e.g. https://orcid.org/0000-0002-XXXX-XXXX
-  researchgate: ""
-  github: "eleanorsong113"
-  linkedin: ""                            # e.g. eleanor-song
-  arxiv: ""
-  pubmed: ""
-  semantic: ""
-
-  # Social (只填你用的)
-  twitter: ""
-  mastodon: ""
-  bluesky: ""
-  instagram: ""
-  weibo: ""
-  zhihu: ""
-
-# -------------------------------
-# Publication Categories
-# -------------------------------
-publication_category:
-  books:
-    title: "Books"
-  manuscripts:
-    title: "Journal Articles"
-  conferences:
-    title: "Conference Papers"
-
-# -------------------------------
-# Site Behavior
-# -------------------------------
-teaser:  
-breadcrumbs: false
-words_per_minute: 160
-future: true
-read_more: "disabled"
-talkmap_link: false
-
-comments:
-  provider: false
-
-# -------------------------------
-# SEO / Social / Analytics
-# -------------------------------
-social:
-  type: "Person"
-  name: "Eleanor (Shengfang) Song"
-  links: []
-
-analytics:
-  provider: "false"
-
-# -------------------------------
-# File Handling
-# -------------------------------
-include:
-  - .htaccess
-  - _pages
-  - files
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .github
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - CHANGELOG
-  - Capfile
-  - config
-  - Dockerfile
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - local
-  - log
-  - node_modules
-  - package.json*
-  - Rakefile
-  - README
-  - tmp
-  - vendor
-
-keep_files:
-  - .git
-  - .svn
-
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# -------------------------------
-# Markdown Settings
-# -------------------------------
+# Build settings
 markdown: kramdown
-highlighter: rouge
-excerpt_separator: "\n\n"
-incremental: false
+theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes@4.26.2
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
 
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
+paginate: 5
+paginate_path: "/page:num/"
 
-# -------------------------------
-# Collections (auto-generate pages)
-# -------------------------------
+# Author profile
+author:
+  name: "Eleanor (Shengfang) Song"
+  avatar: "/images/profile.jpg"
+  bio: "I’m an applied scientist passionate about computer vision, generative AI, and multimodal intelligence."
+  location: "Bay Area, California"
+  email: "your_email@example.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/eleanorsong113"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/your-linkedin"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/"
+    - label: "CV"
+      icon: "fas fa-file-alt"
+      url: "/files/EleanorSong_CV.pdf"
+
+# Navigation (adjust as needed)
 collections:
   teaching:
     output: true
-    permalink: /:collection/:path/
+    permalink: /teaching/:path/
   publications:
     output: true
-    permalink: /:collection/:path/
-  portfolio:
+    permalink: /publications/:path/
+  projects:
     output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+    permalink: /projects/:path/
 
-# -------------------------------
-# Default Layouts
-# -------------------------------
 defaults:
   - scope:
       path: ""
-      type: posts
+      type: "posts"
     values:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
-      related: true
-
   - scope:
       path: ""
-      type: pages
+      type: "pages"
     values:
       layout: single
       author_profile: true
 
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+# Output options
+include:
+  - _pages
+  - _publications
+  - _projects
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
 
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+# Optional Google Analytics (if needed)
+# google_analytics: UA-XXXXXXXXX-X
 
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-
-# -------------------------------
-# Sass/SCSS
-# -------------------------------
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# -------------------------------
-# Output & Plugins
-# -------------------------------
-permalink: /:categories/:title/
-timezone: Etc/UTC
-
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-# -------------------------------
-# HTML Compression
-# -------------------------------
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+# Social sharing image (optional)
+og_image: "/images/profile.jpg"
