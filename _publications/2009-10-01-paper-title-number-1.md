@@ -1,14 +1,16 @@
 ---
-title: "Paper Title Number 1"
+
+title: "Self-Reported Motor and Nonmotor Symptoms, Prodromal Parkinson’s Disease Probability, and Incident Parkinson’s Disease in US Farmers"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
----
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+permalink: /publication/2025-self-reported-motor-nonmotor-symptoms
+excerpt: 'This study investigates motor and nonmotor symptoms and prodromal Parkinson’s disease probability among U.S. farmers.'
+date: 2025-01-01
+venue: 'Movement Disorders'
+slidesurl: ''
+paperurl: ''
+bibtexurl: ''
+citation: 'Song, S., Luo, Z., Plassman, B. L., Huang, X., Yuan, Y., Shrestha, S., Parks, C. G., Hofmann, J. N., Beane Freeman, L. E., Sandler, D. P., & Chen, H. (2025). "Self-Reported Motor and Nonmotor Symptoms, Prodromal Parkinson’s Disease Probability, and Incident Parkinson’s Disease in US Farmers." <i>Movement Disorders</i>, 40(5), 855–868.'
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+This paper studies motor and nonmotor symptoms and prodromal Parkinson’s disease probability in US farmers. The results provide insights into early detection and epidemiology of Parkinson’s disease in agricultural populations.

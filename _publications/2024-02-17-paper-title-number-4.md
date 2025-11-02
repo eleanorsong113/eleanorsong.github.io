@@ -1,13 +1,16 @@
 ---
-title: "Paper Title Number 4"
-collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
----
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+title: "Parkinson’s Disease Case Ascertainment in the Sister Study: A Cohort for Environmental Health Research"
+collection: publications
+category: manuscripts
+permalink: /publication/2023-parkinsons-disease-sister-study
+excerpt: 'Analysis of Parkinson’s disease case ascertainment in a large U.S. women cohort.'
+date: 2023-01-01
+venue: 'Journal of Parkinson’s Disease'
+slidesurl: ''
+paperurl: '[https://doi.org/10.3233/JPD-230053](https://doi.org/10.3233/JPD-230053)'
+bibtexurl: ''
+citation: 'Cao, Z., Song, S., Huang, X., Li, C., Luo, Z., D’Aloisio, A. A., Suarez, L., Hernandez, D. G., Singleton, A. B., Sandler, D. P., & Chen, H. (2023). "Parkinson’s Disease Case Ascertainment in the Sister Study: A Cohort for Environmental Health Research." <i>Journal of Parkinson’s Disease</i>, 13(5), 729–742.'
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+This study describes Parkinson’s disease case ascertainment in a large cohort, highlighting data management, validation, and statistical approaches.

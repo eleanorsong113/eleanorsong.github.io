@@ -1,13 +1,16 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
-collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
----
 
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
+title: "Depressive symptoms before and after Parkinson’s diagnosis—A longitudinal analysis"
+collection: publications
+category: manuscripts
+permalink: /publication/2022-depressive-symptoms-parkinsons
+excerpt: 'Longitudinal analysis of depressive symptom development before and after Parkinson’s diagnosis.'
+date: 2022-01-01
+venue: 'PLOS ONE'
+slidesurl: ''
+paperurl: '[https://doi.org/10.1371/journal.pone.0272315](https://doi.org/10.1371/journal.pone.0272315)'
+bibtexurl: ''
+citation: 'Song, S., Luo, Z., Li, C., Huang, X., Shiroma, E. J., Simonsick, E. M., & Chen, H. (2022). "Depressive symptoms before and after Parkinson’s diagnosis—A longitudinal analysis." <i>PLOS ONE</i>, 17(7), e0272315.'
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+This paper analyzes the progression of depressive symptoms before and after Parkinson’s diagnosis using longitudinal cohort data.

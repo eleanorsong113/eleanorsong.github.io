@@ -1,14 +1,16 @@
 ---
-title: "Paper Title Number 3"
+
+title: "The impact of place-based contextual social and environmental determinants on preterm birth: A systematic review of the empirical evidence"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides3.pdf'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
----
+permalink: /publication/2023-place-based-contextual-determinants
+excerpt: 'Systematic review of place-based social and environmental determinants affecting preterm birth.'
+date: 2023-01-01
+venue: 'Health & Place'
+slidesurl: ''
+paperurl: '[https://doi.org/10.1016/j.healthplace.2023.103082](https://doi.org/10.1016/j.healthplace.2023.103082)'
+bibtexurl: ''
+citation: 'Siddika, N., Song, S., Margerison, C. E., Kramer, M. R., & Luo, Z. (2023). "The impact of place-based contextual social and environmental determinants on preterm birth: A systematic review of the empirical evidence." <i>Health & Place</i>, 83, 103082.'
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This paper systematically reviews how social and environmental contextual determinants influence preterm birth, providing evidence for public health interventions.
