@@ -2,63 +2,25 @@ locale                   : "en-US"
 site_theme               : "default"   # 可选 "air" 或 "default"
 title                    : "Eleanor (Shengfang) Song"
 title_separator          : "-"
-name                     : &name "Eleanor (Shengfang) Song"
+name                     : &name "Happy Eleanor (Shengfang) Song"
 description              : &description "Eleanor (Shengfang) Song’s academic portfolio"
 url                      : "https://eleanorsong113.github.io"   # 请确保与你 GitHub Pages 地址一致
 baseurl                  : ""        # 如果存放于子路径则填写，如 "/subpath"
 repository               : "eleanorsong113/eleanorsong.github.io"
 
 author:
-  avatar           : "profile.png"    # 请把头像文件放在 /images 或根目录，并命名对应
+  avatar           : "ssf_image.jfif"    # 请把头像文件放在 /images 或根目录，并命名对应
   name             : "Eleanor (Shengfang) Song"
   pronouns         : ""              # 如 "she/her"，不填则省略
-  bio              : "Researcher in [你的研究方向]"   # 请替换为你的简介
-  location         : "Bay Area, CA"  # 根据实际所在位置
-  employer         : ""              # 如你所在机构
-  uri              : ""              # 你个人主页 URL
-  email            : ""              # 若公开邮箱可填，否则留空
+  bio              : "Ph.D. candidates in Biostatistics"   # 请替换为你的简介
+  location         : "San Jose, CA"  # 根据实际所在位置
+  employer         : "Michigan State University"              # 如你所在机构
+  # uri              : ""              # 你个人主页 URL
+  email            : "eleanorsong113@yahoo.com"              # 若公开邮箱可填，否则留空
 
   # 学术/社交链接（只填你愿意公开的）
-  academia         : ""
-  arxiv            : ""
-  googlescholar    : ""
-  inspire-hep      : ""
-  impactstory      : ""
-  orcid            : ""
-  semantic         : ""
-  pubmed           : ""
-  researchgate     : ""
-  scopus           : ""
-  bitbucket        : ""
-  codepen          : ""
-  dribbble         : ""
-  github           : "eleanorsong113"
-  kaggle           : ""
-  stackoverflow    : ""
-  artstation       : ""
-  bluesky          : ""
-  facebook         : ""
-  flickr           : ""
-  foursquare       : ""
-  goodreads        : ""
-  google_plus      : ""
-  keybase          : ""
-  instagram        : ""
-  lastfm           : ""
-  linkedin         : ""
-  mastodon         : ""
-  medium           : ""
-  pinterest        : ""
-  soundcloud       : ""
-  steam            : ""
-  telegram         : ""
-  tumblr           : ""
-  twitter          : ""
-  vine             : ""
-  weibo            : ""
-  wikipedia        : ""
-  xing             : ""
-  zhihu            : ""
+  googlescholar    : "https://scholar.google.com/citations?user=0FqoRAYAAAAJ&hl=en"
+  linkedin         : "shengfang-eleanor-song/"
 
 publication_category:
   books:
@@ -208,7 +170,7 @@ sass:
   style: compressed
 
 permalink: /:categories/:title/
-timezone: Etc/UTC
+# timezone: "America/Los_Angeles"  # 或你所在时区
 
 plugins:
   - jekyll-feed
